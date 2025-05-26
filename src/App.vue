@@ -1,15 +1,14 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <CMP_Chat/>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import CMP_Chat from './components/CMP_Chat.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    CMP_Chat
   }
 }
 </script>
